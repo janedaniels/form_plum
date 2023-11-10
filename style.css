@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    color: #1d1d1d;
+}
+
+form {
+    background: linear-gradient(-90deg, #FDD460, #FFFFAF66);
+    font-size: 44px;
+    font-weight: 600;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 40px;
+    width: 665px;
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    user-select: none;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-bottom: 0px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    user-select: none;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    color: #1d1d1d;
+    font-size: 22px;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    background-color: plum;
+    color: white;
+    font-size: 28px;
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.error {
+    outline: 2.5px solid red;
+
+}
+
+.error-massage {
+    color: red;
+    font-size: 16px;
+    display: none;
+    text-align: center;
+    height: 0px;
+    position: relative;
+    top: 20px;
+}
+
+.show {
+    display: block;
+}
